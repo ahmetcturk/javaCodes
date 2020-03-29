@@ -9,7 +9,7 @@ rectangle.area();
 }
 }
 
-class Shape {
+class Shape1 {
 	int area;
 }
 class twoDimensionalShape extends Shape1{
