@@ -19,7 +19,7 @@ public class Question10 {
 		ArrayList<Hunter> arrayList3 = new ArrayList<>();
 		arrayList3.add(new Tiger());
 		
-//		ArrayList<Tiger> arrayList4 = new ArrayList<>()
+		//ArrayList<Tiger> arrayList4 = new ArrayList<>()
 		//arrayList4.add(new Cat());
 		
 		ArrayList<Animal> arrayList5 = new ArrayList<>();
