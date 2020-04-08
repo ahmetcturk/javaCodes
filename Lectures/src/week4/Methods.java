@@ -24,6 +24,12 @@ public class Methods {
 	public static void printArray(String [] source){ // Overloading of the printArray Method
 		System.out.println(Arrays.toString(source)); // printing values of the array
 	} 
+	
+	
+	public static void helloWorld(){
+		System.out.println("HelloWorld");
+		System.out.println("Hello Silicone Labs");
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		helloWorld(); // calling hello world method
@@ -40,11 +46,6 @@ public class Methods {
 		areaOfTriangle(3, 10);
 		
 
-	}
-	
-	public static void helloWorld(){
-		System.out.println("HelloWorld");
-		System.out.println("Hello Silicone Labs");
 	}
 
 

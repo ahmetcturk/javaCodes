@@ -30,6 +30,16 @@ class BankAccount implements IBankAccount,Lira , Rupee, Euro{
 	}
 	
 
+	public double getMyDollar() {
+		return myDollar;
+	}
+
+
+	public void setMyDollar(double myDollar) {
+		this.myDollar = myDollar;
+	}
+
+
 	public void withDrawDollar(double withdraw){
 		myDollar -= withdraw;
 		System.out.println("my dollar is " + myDollar);
@@ -48,7 +58,7 @@ class BankAccount implements IBankAccount,Lira , Rupee, Euro{
 		@Override
 		public void withDrawEuro(double withdraw) {
 		myDollar -= withdraw * EURO;
-		myLira = myDollar / EURO;
+		myEuro = myDollar / EURO;
 		System.out.println("my euro is" + myEuro);
 		System.out.println("my dollar is " + myDollar);// TODO Auto-generated method stub
 		System.out.println("**************************");
