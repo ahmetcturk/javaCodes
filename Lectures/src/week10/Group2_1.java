@@ -26,8 +26,9 @@ public class Group2_1 {
 		numbers.add(2);
 		numbers.add(5);
 		System.out.println(numbers);
-		// What is the sum of the elements in numbers set ? 
+		// Question 1 : What is the sum of the elements in numbers set ? 
 		
+		// Solution 1
 		Iterator<Integer> iterator = numbers.iterator();
 		int sum = 0;
 		while (iterator.hasNext()) {
@@ -35,6 +36,7 @@ public class Group2_1 {
 		}
 		System.out.println(sum);
 		
+		// Solution 2
 		Iterator<Integer> iterator1 = numbers.iterator();
 		
 		int sum1 = 0;

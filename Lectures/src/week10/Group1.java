@@ -15,6 +15,8 @@ public class Group1 {
 				hashSet.add("ArrayList");
 				hashSet.add("ArrayList");
 				hashSet.add("LinkedList");
+							
+				
 				
 				Iterator<String> iterator = hashSet.iterator();
 				// Concatenate all the elements in a string
@@ -26,12 +28,34 @@ public class Group1 {
 				
 				
 				
+				
+				
+				
+				
+				
+				
+				
+			
+				
+				
+				
 				HashSet<Integer> hashSet2 = new HashSet();
 				hashSet2.add(5);
 				hashSet2.add(6);
 				hashSet2.add(7);
 				hashSet2.add(8);
 				hashSet2.add(3);
+				
+				System.out.println(hashSet2);
+				
+				
+				
+				
+				
+				
+				
+				
+				
 				
 				// find sum of all the numbers
 				Iterator<Integer> iterator1 = hashSet2.iterator();

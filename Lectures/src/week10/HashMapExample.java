@@ -13,7 +13,7 @@ public class HashMapExample {
 		// Code Hard, Study Hard !
 		// Hashmap Example, key is unique, value doesn't have to be unique
 		
-		HashMap<String,String> emails = new HashMap<>();
+		Map<String,String> emails = new HashMap<>(); // upcasting
 		
 		emails.put("acturk@siliconelabs.com", "12345");
 		emails.put("acturk@siliconelabs.com", "12345");
