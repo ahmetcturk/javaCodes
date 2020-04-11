@@ -41,8 +41,10 @@ public class HashMapExample {
 		starbucks.put("Elena", "S'mores Frappucino");
 		starbucks.put("Ahmet", "Tea");
 		System.out.println(starbucks);
+		
 		Set set1 = starbucks.entrySet();
 		Iterator iterator3 = set1.iterator();
+		
 		while(iterator3.hasNext()){
 			HashMap.Entry entry1 = (HashMap.Entry)iterator3.next();
 			System.out.println("Key : " + entry1.getKey());

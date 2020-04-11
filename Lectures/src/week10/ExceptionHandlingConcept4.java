@@ -7,9 +7,9 @@ public class ExceptionHandlingConcept4 {
 		// Nested try - catch blocks
 
 		try {
-			System.out.println(9 / 0);
+			System.out.println(9 / 1);
 			try {
-				System.out.println(9 / 0);
+				System.out.println(9 / 1);
 				try {
 					int[] myNumbers = { 1, 2, 3 };
 					System.out.println(myNumbers[10]);
@@ -22,6 +22,12 @@ public class ExceptionHandlingConcept4 {
 
 		} catch (IndexOutOfBoundsException e) {
 			System.out.println("Index Out");
+		}
+		catch (ArithmeticException e) {
+			System.out.println("Arithmetic Exception");
+		}
+		catch (Exception e) {
+			System.out.println("Exception");
 		}
 
 	}
