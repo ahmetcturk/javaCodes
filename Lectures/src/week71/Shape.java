@@ -1,9 +1,9 @@
 package week71;
 
 
-public class Shape1 {
+public class Shape {
 public static void main(String[] args) {
-	new Shape1().area();
+	new Shape().area();
 	new rectangle(1,2).area();
 	new circle(4).area();
 }
@@ -11,7 +11,7 @@ void area(){
 }
 }
 
-class rectangle extends Shape1{
+class rectangle extends Shape{
 	int width;
 	int length;
 	
@@ -27,7 +27,7 @@ class rectangle extends Shape1{
 		super.area();
 	}
 }
-class circle extends Shape1{
+class circle extends Shape{
 	int radius;
 	
 	public circle(int radius) {
@@ -41,7 +41,7 @@ class circle extends Shape1{
 		super.area();
 	}
 }
-class cube extends Shape1{
+class cube extends Shape{
 	int side;
 	
 	public cube(int side) {

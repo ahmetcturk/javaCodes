@@ -10,6 +10,7 @@ public class Group31 {
 		System.out.print("Hello ");
 		method();
 		System.out.println("World");
+		
 	}
 
 }

@@ -4,30 +4,25 @@ public class ExceptionHandlingConcept4 {
 
 	public static void main(String[] args) {
 
-		// Nested try - catch blocks
-
+		// Nested try-catch
 		try {
+
 			System.out.println(9 / 1);
+
 			try {
-				System.out.println(9 / 1);
-				try {
-					int[] myNumbers = { 1, 2, 3 };
-					System.out.println(myNumbers[10]);
-				} catch (StringIndexOutOfBoundsException e) {
-					System.out.println("StringIndexOutOfBoundsException handled");
-				}
-			} catch (ArithmeticException e) {
-				System.out.println("Arithmetic Exception Handled");
+
+				System.out.println(9 / 0); // this exception has been caught by outer catch block
+
+			} catch (IndexOutOfBoundsException e) {
+				System.err.println("Inner Catch Block");
 			}
 
-		} catch (IndexOutOfBoundsException e) {
-			System.out.println("Index Out");
-		}
+		} 
 		catch (ArithmeticException e) {
-			System.out.println("Arithmetic Exception");
+			System.err.println("Arithmetic Exception");
 		}
 		catch (Exception e) {
-			System.out.println("Exception");
+			System.err.println("Outer Catch Block");
 		}
 
 	}

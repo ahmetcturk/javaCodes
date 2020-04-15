@@ -4,25 +4,29 @@ public class ExceptionHandlingConcept2 {
 
 	public static void main(String[] args) {
 
-		try {
-			System.out.println(9 / 0);
-			int[] array = { 1, 2, 3, 4 };
-			System.out.println(array[10]);
-		} 
-		catch (StringIndexOutOfBoundsException e) {
-			System.out.println("StringIndexOutOfBoundsException handled");
-		}
-		catch (IndexOutOfBoundsException e) {
-			System.out.println("Index Out of bound exception handled");
-		} 
+		// After try block, multiple catch blocks and one finally block can be created
+		// After first exception, program will be terminated. Other exceptions won't be on console
 		
-		catch (ArithmeticException e) {
-			System.out.println("Arithmetic Exception handled");
+		try {
+			int arr [] = {4298};
+			//System.out.println(arr[2]); // ArrayIndexOutOfBound Exception
+			System.out.println(9/0); // ArithmeticException
+			System.out.println("Hello Silicnoe Labs");
 		} 
-		catch (Exception e) {
-			System.out.println("Exception Handled");
+		catch (ArithmeticException e) {
+			
+			System.out.println("Arithmetic Exception");
 		}
-
+		catch (ArrayIndexOutOfBoundsException e) {
+			
+			System.out.println("Array Index Exception");
+		}
+		catch (Exception e) {
+			
+			System.out.println("Exception");
+		}
+		
+		
 	}
 
 }

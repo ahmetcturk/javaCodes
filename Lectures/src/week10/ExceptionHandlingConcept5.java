@@ -3,28 +3,29 @@ package week10;
 // This program demonstrates working of throws
 public class ExceptionHandlingConcept5 {
 
-	static void method() throws Exception { // throws keyword tells me that this method can throw exception
-	
+	static void method() throws Exception{ // Declares that this method throws exception
 		System.out.println("This is method () ");
-		
-		
-		throw new IndexOutOfBoundsException(); // this line is creating and throwing Exception object
-		
+		throw new ArithmeticException(); // throw keyword throws exception objects
 	}
-	// this is a caller method
+	
 	public static void main(String[] args) {
+		
+		// There are two ways to handle this exception
+		// 1 ) Try Catch
+		// 2 ) Add throws keyword to main method
 		
 		try {
 			method();
 		} 
 		catch (ArithmeticException e) {
-			System.out.println("Arithmetic Exception handled");
+			// TODO Auto-generated catch block
+			System.err.println("Arithmetic Exception");
 		}
 		catch (Exception e) {
-			System.out.println("Exception handled");
-			
+			// TODO Auto-generated catch block
+			System.err.println("Exception");
 		}
-
+		
 	}
 
 }

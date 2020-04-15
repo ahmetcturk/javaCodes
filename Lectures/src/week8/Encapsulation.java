@@ -1,18 +1,14 @@
 package week8;
 
+
 public class Encapsulation{
-	private String name;
-	private String idNum;
+	// Encapsulation is hiding the data
+	// We will use private keyword to encapsulate our data 
+	private String name ; // private keyword will hide the data within the class
+	private String idNum; // it will not be reachable from outside of the class
 	private int age;
-	
-	// info method
-	public void info(){
-		System.out.println("Name : " + getName() +
-				"\nId Number : "  +getIdNum() +
-				"\nAge : " + getAge());
-		
-	}
-	
+	// in order to reach the methods and fields, we will use additional methods.
+	// Getters - Setters
 	public String getName() {
 		return name;
 	}
@@ -31,6 +27,15 @@ public class Encapsulation{
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
+
+	// info method will return the fields
+	public void info(){
+		System.out.println("Name : " + getName() + 
+		"\nID Number : " + getIdNum() +
+		 "\nAge" + getAge() );
+		}
+	
 	
 	
 }

@@ -1,36 +1,32 @@
 package week10;
 
-import java.lang.reflect.Method;
 import java.util.Scanner;
 
+// All the methods which possibly throws exception either needs to have throws keyword,
+// Or should be surrounded by try-catch in order to avoid unexpected terminations
 public class ExceptionHandlingConcept6 {
 	
 	static void divide(int a, int b) throws ArithmeticException{
 		System.out.println(a/b);
 	}
 	
-	static int inputNumerator(Scanner input){
-		System.out.println("Enter the numerator : ");
-		int numerator = input.nextInt();
-		return numerator;
+	static int inputNumerator(Scanner scanner){
+		System.out.println("Input Numerator : ");
+		return scanner.nextInt();
 	}
-	static int inputDenominator(Scanner input){
-		System.out.println("Enter the denominator  : ");
-		int denominator = input.nextInt();
-		return denominator;
+	static int inputDenominator(Scanner scanner){
+		System.out.println("Input Denominator : ");
+		return scanner.nextInt();
 	}
+	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
+		// divide method compiles successfuly, because it throws Runtime(unchecked) exception 
 		try {
-			divide(inputNumerator(scanner),inputDenominator(scanner));
-		} 
-		catch (ArithmeticException e) {
-			System.out.println("Undefined");
+			divide(inputDenominator(scanner), inputNumerator(scanner));
+		} catch (ArithmeticException e) {
 			
-		}catch (Exception e) {
-			System.out.println("Invalid input");
-			
+			System.err.println("Error");
 		}
 
 	}
