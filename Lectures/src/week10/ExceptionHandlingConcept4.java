@@ -22,8 +22,16 @@ public class ExceptionHandlingConcept4 {
 			System.err.println("Arithmetic Exception");
 		}
 		catch (Exception e) {
-			System.err.println("Outer Catch Block");
+			System.err.println("Arithmetic Exception");
 		}
+		catch (Throwable e) {
+			System.err.println("Arithmetic Exception");
+		}
+		System.out.println("Hello World");
+		
+//		catch (Exception e) {
+//			System.err.println("Outer Catch Block");
+//		}
 
 	}
 

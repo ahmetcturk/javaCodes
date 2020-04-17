@@ -3,9 +3,10 @@ package week10;
 // This program demonstrates working of throws
 public class ExceptionHandlingConcept5 {
 
-	static void method() throws Exception{ // Declares that this method throws exception
+	static void method() throws Throwable{ // Declares that this method throws exception
 		System.out.println("This is method () ");
 		throw new ArithmeticException(); // throw keyword throws exception objects
+		
 	}
 	
 	public static void main(String[] args) {
@@ -24,6 +25,9 @@ public class ExceptionHandlingConcept5 {
 		catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.err.println("Exception");
+		} catch (Throwable e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		
 	}

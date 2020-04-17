@@ -8,6 +8,7 @@ public class Outer1 {
 		class Local {
 			void msg() {
 				System.out.println("Value is : " + data);
+				main1();
 			}
 		}
 		Local local1 = new Local();
@@ -18,6 +19,10 @@ public class Outer1 {
 	public static void main(String[] args) {
 		Outer1 outer1 = new Outer1();
 		outer1.display();
+	}
+	
+	public static void main1() {
+		
 	}
 
 }
