@@ -63,7 +63,7 @@ abstract class File {
 		 
 	 }
 
-	public class AbstractTester4 {
+	public class Abstract4 {
 	    public static void main(String[] args) {
 	        //File file1 = new File(); will not work, cannot create object
 	        XLSFile xl = new XLSFile();

@@ -14,6 +14,7 @@ public class PeriodAndDuration {
 		
 		LocalDate initialDate = LocalDate.now();
 		LocalDate finalDate = initialDate.plus(Period.ofWeeks(4));// number*7 % 30
+		
 		int days = Period.between(initialDate, finalDate).getDays();
 		System.out.println("Duration between the two date : " + days);
 		long between = ChronoUnit.DAYS.between(initialDate, finalDate);

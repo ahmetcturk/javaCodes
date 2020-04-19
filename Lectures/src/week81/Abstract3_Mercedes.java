@@ -1,9 +1,9 @@
 package week81;
 
-public class Mercedes extends Car{ 
+public class Abstract3_Mercedes extends Abstract3_Car{ 
  private int door;
  
- public Mercedes() {
+ public Abstract3_Mercedes() {
 }
 
 public int getDoor() {

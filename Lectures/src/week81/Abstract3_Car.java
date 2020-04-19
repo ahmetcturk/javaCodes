@@ -1,11 +1,11 @@
 package week81;
 
-public abstract class Car {
+public abstract class Abstract3_Car {
 private int weight;
 private String color;
 private String model;
 
-public Car() {
+public Abstract3_Car() {
 }
 
 abstract int fuelPerHour();

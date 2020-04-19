@@ -21,7 +21,7 @@ class Y extends X
 	}
 }
 
-public class MainClass 
+public class Inheritance1 
 {	
 	public static void main(String[] args)
 	{

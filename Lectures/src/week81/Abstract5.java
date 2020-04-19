@@ -42,7 +42,7 @@ public double area() {
 	 
  }
  
-public class AbstractTester5{
+public class Abstract5{
           public static void main(String args[])
 
           {

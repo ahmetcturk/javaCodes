@@ -1,14 +1,14 @@
 package week8;
 
 
-abstract class Base1 {
+public abstract class Abstract2 {
 	abstract void get(int a, int b);
 	abstract void add();
 	abstract void display();
 	
 }
 
-class SubClass1 extends Base1{
+class SubClass1 extends Abstract2{
 	
 	int x,y,z;
 	@Override

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="week81.AbstractTester3" project="Lectures" 
-    file="/Lectures/src/week81/AbstractTester3.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="week81.Abstract3_Tester" project="Lectures" 
+    file="/Lectures/src/week81/Abstract3_Tester.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="113" y="130"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="week81.Car" project="Lectures" file="/Lectures/src/week81/Car.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="week81.Abstract3_Car" project="Lectures" 
+    file="/Lectures/src/week81/Abstract3_Car.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="350" y="377"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="week81.Ford" project="Lectures" file="/Lectures/src/week81/Ford.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="week81.Abstract3_Ford" project="Lectures" 
+    file="/Lectures/src/week81/Abstract3_Ford.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="357" y="126"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="week81.Mercedes" project="Lectures" file="/Lectures/src/week81/Mercedes.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="week81.Abstract3_Mercedes" project="Lectures" 
+    file="/Lectures/src/week81/Abstract3_Mercedes.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="119" y="333"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +37,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="week81.UserScreen" project="Lectures" file="/Lectures/src/week81/UserScreen.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="week81.Abstract3_UserScreen" project="Lectures" 
+    file="/Lectures/src/week81/Abstract3_UserScreen.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="101" width="109" x="456" y="199"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      

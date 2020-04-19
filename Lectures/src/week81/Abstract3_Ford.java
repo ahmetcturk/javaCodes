@@ -1,9 +1,9 @@
 package week81;
 
-public class Ford extends Car {
+public class Abstract3_Ford extends Abstract3_Car {
 	private int maxSpeed;
 
-	public Ford() {
+	public Abstract3_Ford() {
 		
 	}
 

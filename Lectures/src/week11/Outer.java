@@ -1,8 +1,10 @@
 package week11;
 
 public class Outer {
+	
 private int serialNumber = 10;
-	 class Inner{
+
+	class Inner{
 		int getValue(){
 			return serialNumber;
 		}
@@ -18,6 +20,7 @@ private int serialNumber = 10;
 		oClass.displaySerialNumber();
 		
 		Outer.Inner object = oClass.new Inner();
+		
 		
 		System.out.println("Serial Number : " + object.getValue());
 	}
