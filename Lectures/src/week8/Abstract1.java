@@ -1,8 +1,10 @@
 package week8;
-public class Abstract1{
-	
+
+public class Abstract1 {
+
 }
-    abstract class Shape {
+
+abstract class Shape {
 	public static double pi = Math.PI;
 	protected float height;
 	protected float width;
