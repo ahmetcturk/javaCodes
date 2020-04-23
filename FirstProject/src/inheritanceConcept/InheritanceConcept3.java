@@ -1,39 +1,44 @@
 package inheritanceConcept;
 
+// We will demonstrate multilevel inheritance in this example
+
+class A {
+	int a;
+
+	void a() {
+		System.out.println("Method A");
+	}
+}
+
+class B extends A {
+	int b;
+
+	void b() {
+		System.out.println("Method B");
+	}
+}
+
+class C extends B {
+	int c;
+
+	void c() {
+		System.out.println("Method C");
+	}
+}
+
 public class InheritanceConcept3 {
-
-}
-
-class MultiLevelInheritance {
 	public static void main(String[] args) {
-		Rectangle rectangle = new Rectangle();
-		rectangle.width = 9;
-		rectangle.length = 8;
-		rectangle.area();
+		C c = new C();
+		// Class C object have access to all properties of the superclasses (A - B - C)
+		B b = new B();
+		// Class B object will have access to Class superclass (B-C)
+		A a = new A();
+		// Class A object will have access to it's own properties
 	}
 }
 
-class Shape1 {
-	int area;
-}
 
-class twoDimensionalShape extends Shape1 {
 
-}
 
-class Circle extends twoDimensionalShape {
-	int radius;
 
-	void area() {
-		System.out.println("Area of the circle : " + 3 * radius * radius);
-	}
-}
 
-class Rectangle extends twoDimensionalShape {
-	int width;
-	int length;
-
-	void area() {
-		System.out.println("Area of the rectangle : " + width * length);
-	}
-}

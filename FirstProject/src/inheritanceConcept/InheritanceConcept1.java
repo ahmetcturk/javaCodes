@@ -1,35 +1,35 @@
 package inheritanceConcept;
+// Subclass will inherit all the properties (except private properties) from Superclass
+// Inheritance only works in one way. Properties will inherit from superclass to subclass
+// But Properties won't be inherited from subclass to superclass.
 
 class Superclass{
-	int x;
-	String y;
+	private int x;
+	String y ;
 	void method(){
-		System.out.println("This is a superclass method");
-	}
-	private void method2(){
-		System.out.println("This is a private superclass method");
+		System.out.println("This is method in superclass");
 	}
 }
-// Subclass will inherit all the properties (except private properties) from Superclass
+
 class Subclass extends Superclass{
-	int a;
+	int a ;
 	String b;
-	void subclassMethod(){
-		System.out.println("This is a subclass method");
+	void method1(){
+		// System.out.println(x);//-- Private properties are not accessible from subclasses
 	}
 }
 
 public class InheritanceConcept1 {
 
 	public static void main(String[] args) {
-		Subclass subclassObject = new Subclass();
-		subclassObject.x = 10; // x has been inherited from superclass to subclass
-		subclassObject.y = "String"; // y has been inherited from superclass to subclass
-		subclassObject.method();// method has been inherited from superclass to subclass
-		subclassObject.a = 100;
-		subclassObject.b = "String1";
-		subclassObject.subclassMethod();
-		//subclassObject.method2();//-- Compiler error
+		Superclass superclass = new Superclass();
+		//superclass.x =10;
+		Subclass subclass = new Subclass();
+		//subclass.x = 100;
+		subclass.method();
+		superclass.method();
+		// Superclass object doesn't have access to subclass properties
+		//superclass.a = 100;//--compiler error
 	}
 
 }
