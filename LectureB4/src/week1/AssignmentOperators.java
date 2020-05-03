@@ -40,7 +40,7 @@ public class AssignmentOperators {
 		int num11 = 88;
 		int num12 = 46;
 		num11 %= num12; // num11 = num11 % num12
-		System.out.println(num11); // 
+		System.out.println(num11); // 42
 
 	}
 
