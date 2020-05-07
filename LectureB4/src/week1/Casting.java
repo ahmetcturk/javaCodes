@@ -31,6 +31,7 @@ public class Casting {
 		
 		
 		
+		
 		char myChar = 'o';
 		System.out.println((int)myChar); // Numeric value of the character (ASCII)
 		
