@@ -12,6 +12,7 @@ public class SwitchCase2 {
 		System.out.println("What is the Grade of the student : ");
 		String grade = input.next();
 		switch (grade) {
+		case "a":
 		case "A":
 			System.out.println("Excellent");
 			break;
@@ -31,6 +32,9 @@ public class SwitchCase2 {
 			System.out.println("Invalid Input");
 			break;
 		}
+
+		
+		  
 
 	}
 
