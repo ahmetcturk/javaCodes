@@ -67,10 +67,13 @@ public class StringMethods {
 		// replace()
 		String string12 = "Java";
 		System.out.println(string12.replace('j', 'L').replace('v', 'p'));
+	
 		
-		// concat() - concatenation
+		// concat() - concatenation (Putting strings side by side)
 		System.out.println(string10 + string11);
 		System.out.println(string12.concat(string11).concat(string10));
+		
+		
 	}
 
 }

@@ -15,6 +15,7 @@ public class StringExample {
 		// 1 ) String Literal
 		String string = "Hello World";
 		String string2 = "Hello World";
+		
 		// 2) Creating a string with new keyword
 		String string3 = new String("Hello World");
 		String string4 = new String("Hello World");
@@ -30,6 +31,7 @@ public class StringExample {
 		// StringBuilders, mutable, changable,non-synchronized, non-thread safe, relatively faster than Stringbuffer
 		StringBuilder stringBuilder = new StringBuilder("Robert Turk");
 		System.out.println(stringBuilder);
+		
 		
 		
 		
