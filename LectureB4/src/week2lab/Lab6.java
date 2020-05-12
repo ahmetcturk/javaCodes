@@ -16,6 +16,7 @@ public class Lab6 {
 		int gumball = (coupon%10)/3;
 		
 		int extraCoupons = coupon - (candies*10 + gumball*3);
+		
 		if (coupon<3) {
 			System.out.println("Not enough coupon");
 		} else {

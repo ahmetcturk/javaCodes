@@ -1,6 +1,5 @@
 package week2;
 
-import java.util.function.DoubleToLongFunction;
 
 public class SwitchCaseExample {
 
