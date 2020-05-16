@@ -13,6 +13,8 @@ public class StringManipulation {
 		// from end of the string
 
 		System.out.println(string2);
+		string2 = string2.trim();
+		System.out.println(string2);
 		System.out.println(string2.trim());
 		
 		String s2 = "Your total amount is 1500 USD";
@@ -28,6 +30,7 @@ public class StringManipulation {
 		// endsWith()
 		String string3 = "Ahmet";
 		System.out.println(string3.endsWith("t"));
-	}
+	
+		}
 
 }
