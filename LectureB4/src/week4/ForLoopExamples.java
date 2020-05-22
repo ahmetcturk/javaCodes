@@ -1,7 +1,5 @@
 package week4;
 
-import org.omg.CosNaming._BindingIteratorImplBase;
-
 public class ForLoopExamples {
 
 	public static void main(String[] args) {
