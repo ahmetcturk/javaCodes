@@ -1,5 +1,7 @@
 package week4;
 
+import java.util.Scanner;
+
 public class DoWhileLoops {
 
 	public static void main(String[] args) {
@@ -24,6 +26,9 @@ public class DoWhileLoops {
 		}
 		while(check);
 		
-	}
+		
+		
+		
+		
+	}}
 
-}
