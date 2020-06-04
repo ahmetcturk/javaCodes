@@ -5,7 +5,7 @@ public class MethodConcept4 {
 	public static void main(String[] args) {
 		MethodConcept4 object  = new MethodConcept4();
 		object.age(1990);
-		System.out.println(object.method());
+		
 	}
 	
 	// Create a method which calculates age of the person with Year of birth
@@ -17,8 +17,5 @@ public class MethodConcept4 {
 		System.out.println(2020-year);
 	}
 
-	String method(){
-		System.out.println("Hello");
-		return"";
-	}
+	
 }

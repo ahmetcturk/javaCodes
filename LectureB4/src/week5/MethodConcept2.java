@@ -23,7 +23,9 @@ public class MethodConcept2 {
 		object.printArray(myStringArray);
 	}
 	
-	// Overloading
+	// Overloading : 
+	// If i have same method name with different parameters, this concept is called overloading
+	// In overloading only method names should be same, others can be different
 	void printArray(String array[]){
 		for (int i = 0; i < array.length; i++) {
 			System.out.print(array[i] + " ");
