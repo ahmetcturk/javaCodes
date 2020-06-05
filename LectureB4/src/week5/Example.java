@@ -1,6 +1,5 @@
 package week5;
 
-import javax.management.monitor.CounterMonitorMBean;
 
 // Question : Can we overload the main method 
 // Answer : Yes we can
@@ -16,7 +15,7 @@ public class Example {
 	public static void main(String[] args) {
 		System.out.println(findTheMax(4, 6));
 		
-		countTheLetter("I love Java language, it is pretty easyaaaaaaaaaa", 'a');
+		countTheLetter("I love Java language, it is pretty easy", 'a');
 		
 	}
 	
