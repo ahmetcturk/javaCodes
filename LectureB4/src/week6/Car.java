@@ -32,6 +32,12 @@ System.out.println("Total Cost " + brand +" "+price);
 		object2.buy();
 		
 		
+		Car object3 = new Car();
+		// object3.brand = null
+		// object.price = 0
+		
+		object3.buy();
+		
 	}
 
 }

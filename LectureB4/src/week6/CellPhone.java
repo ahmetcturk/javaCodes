@@ -28,7 +28,8 @@ public class CellPhone {
 		System.out.println(object1.brand + "\n" + object1.price);
 		
 		CellPhone object2 = new CellPhone();
-
+		
+		System.out.println(object2.brand + "\n" + object2.price);
 	}
 
 }
