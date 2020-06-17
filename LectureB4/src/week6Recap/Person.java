@@ -4,7 +4,7 @@ package week6Recap;
 public class Person {
 
 	String name;
-	int age;
+	static int age;
 	
 	public static void main(String[] args) {
 	//  Class  reference
@@ -13,6 +13,9 @@ public class Person {
 		
 		person1.age = 5;
 		person1.name = "Tony";
+		
+	}
+	static void method1(){
 		
 	}
 
