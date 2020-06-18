@@ -1,30 +1,27 @@
 package week7_1;
-
-//Parent class or Superclass
-class SuperClass {
-	int num = 100;
-}
-
-// Child class or subclass
-class ChildClass extends SuperClass {
-	/*
-	 * I am declaring the same variable num in child class too.
-	 */
-	int num = 110;
-
-	void printNumber() {
-		System.out.println(num); // It will print value 110
-		System.out.println(super.num); // It will print value 100
-	}
-
+class SuperClass{
+	int num = 4298;
 	
 }
 
+class ChildClass extends SuperClass{
+	int num = 4300;
+	
+	void printNumber(){
+		// super class 
+		System.out.println(num);// 4300
+		System.out.println(new SuperClass().num); // 4298
+		System.out.println(super.num); // 4298
+		System.out.println(this.num); // 4300
+		System.out.println(new ChildClass().num); // 4300
+	}
+}
 public class SuperKeywordConcept2 {
 
-	public static void main(String args[]) {
-		ChildClass obj = new ChildClass();
-		obj.printNumber();
+	public static void main(String[] args) {
+		
+		new ChildClass().printNumber();
+
 	}
 
 }
