@@ -1,7 +1,14 @@
 package week7_1;
+
+// Final Keywords;
+// final variable = we can not update the variable
+// final method = we can not override method
+// final class = We can not extend to this class
+// constructors can not be final
+
 class SuperClass{
 	int num = 4298;
-	
+	String name; 
 }
 
 class ChildClass extends SuperClass{
