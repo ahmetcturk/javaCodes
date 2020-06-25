@@ -1,17 +1,17 @@
 package week7_1;
 
-class Student {
+class Student1 {
 	int rollno;
 	String name, course;
 	float fee;
 
-	Student(int rollno, String name, String course) {
+	Student1(int rollno, String name, String course) {
 		this.rollno = rollno;
 		this.name = name;
 		this.course = course;
 	}
 
-	Student(int rollno, String name, String course, float fee) {
+	Student1(int rollno, String name, String course, float fee) {
 		this(rollno, name, course);// reusing constructor
 		this.fee = fee;
 	}
@@ -23,8 +23,8 @@ class Student {
 
 class TestThis7 {
 	public static void main(String args[]) {
-		Student s1 = new Student(111, "ankit", "java");
-		Student s2 = new Student(112, "sumit", "java", 6000f);
+		Student1 s1 = new Student1(111, "ankit", "java");
+		Student1 s2 = new Student1(112, "sumit", "java", 6000f);
 		s1.display();
 		s2.display();
 	}
