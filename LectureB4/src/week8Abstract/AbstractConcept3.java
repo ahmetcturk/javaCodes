@@ -17,12 +17,11 @@ package week8Abstract;
 // Abstract classes can have instance variables, concrete methods and constructors
 
 // +If we can not instantiate the abstract classes, why we have constructors ? 
-// -
+// -Because abstract classes can have subclass, in order to create an object for subclass
+// - we need to invoke super class constructor(explicitly or implicitly)
 
-abstract class SuperClass1{
-	public SuperClass1() {
-		System.out.println("SuperClass");
-	}
+class SuperClass1{
+	
 }
 
 public class AbstractConcept3 extends SuperClass1{
