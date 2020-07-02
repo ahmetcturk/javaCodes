@@ -12,7 +12,6 @@ public class HashMapExample {
 		// Welcome Silicone Lab's Brilliant Students
 		// Code Hard, Study Hard !
 		// Hashmap Example, key is unique, value doesn't have to be unique
-		
 		Map<String,String> emails = new HashMap<>(); // upcasting
 		
 		emails.put("acturk@siliconelabs.com", "12345");

@@ -5,8 +5,9 @@ import java.util.Iterator;
 import java.util.ListIterator;
 
 public class ArraylistExample {
-
+	
 	public static void main(String[] args) {
+		
 		// Welcome Silicone Lab's Brilliant Students
 		// Code Hard, Study Hard !
 		ArrayList<String> arrayList = new ArrayList<>(2);
@@ -18,10 +19,8 @@ public class ArraylistExample {
 		// Iterator
 		Iterator iterator = arrayList.iterator();
 		while (iterator.hasNext()) {
-			System.out.println(iterator.next());
-			
-		}
-		
+			System.out.println(iterator.next());			
+		}		
 		
 		// for loop
 		for (int i = 0; i < arrayList.size(); i++) {
@@ -31,8 +30,6 @@ public class ArraylistExample {
 			}
 		}
 		
-		
-
 	}
 
 }
