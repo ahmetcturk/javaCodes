@@ -43,7 +43,7 @@ public class ClassCasting {
 		
 		((SubClass)superClass2).method4();
 		((SubClass)superClass2).method();
-		((SubClass)superClass2).method2();
+		((SubClass)superClass2).method();
 		
 		
 		
