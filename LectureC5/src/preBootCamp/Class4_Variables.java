@@ -1,6 +1,6 @@
 package preBootCamp;
 
-public class Class2_Variables {
+public class Class4_Variables {
 
 	public static void main(String[] args) {
 		
@@ -8,6 +8,8 @@ public class Class2_Variables {
 		
 		// Numerical Data Types
 		// byte : whole numbers 
+		
+		// Primitive Data Types
 		byte a = 100;
 		
 		// short : whole numbers
@@ -17,8 +19,7 @@ public class Class2_Variables {
 		int c = 900000;
 		
 		// long : whole
-		long d = 9000000L;
-		
+		long d = 900000000000000l;
 		
 		// decimal pointed numbers 42.98
 		// float
@@ -33,9 +34,12 @@ public class Class2_Variables {
 		boolean g = true;
 		
 		// char
-		char character = '3';
+		char character = '∞';
 		
+		
+		// Non-primitive
 		// String
+		// Strings are collection of characters
 		String name = "Can Turk";
 		
 		
