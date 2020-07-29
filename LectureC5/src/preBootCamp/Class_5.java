@@ -27,12 +27,14 @@ public class Class_5 {
 		System.out.println((int)'C');
 		
 		char character = '®';
-		System.out.println((short)character);
+		System.out.println((int)character);
 		
 		
 		// int to char
 		
 		System.out.println((char)8022);
+		
+		
 		
 		
 	
