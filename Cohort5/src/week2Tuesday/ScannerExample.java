@@ -31,7 +31,9 @@ public class ScannerExample {
 		
 		System.out.println("Please enter a character : ");
 		char character = input.next().charAt(0);
-		System.out.println("This is your character : " + character);
+		System.out.println("This is the character you chose : " + character);
+		
+		
 		
 		
 		
