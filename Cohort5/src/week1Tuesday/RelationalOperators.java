@@ -12,7 +12,7 @@ public class RelationalOperators {
 		System.out.println(8<1); // false
 		
 		// Boolean variables can hold boolean expressions
-		boolean variable = 9>8;
+		boolean variable = (9>8);
 		
 		System.out.println(variable);
 		

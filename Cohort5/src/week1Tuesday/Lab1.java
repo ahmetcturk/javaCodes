@@ -49,7 +49,7 @@ public class Lab1 {
 		
 		// Hint : number%10 = last digit
 		
-		int number = 000;
+		int number = -100;
 		int thirdDigit = number %10;
 		
 		number = number / 10; // number = 43

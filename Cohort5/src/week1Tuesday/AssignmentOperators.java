@@ -20,6 +20,36 @@ public class AssignmentOperators {
 		System.out.println(num2);
 		
 		
+		// Assignment Operators : +=, -=, *=, /=, %=
+		
+		// += This operator turns left side into left side plus right side
+		
+		int num3 = 100;
+		
+		num3 += 40 ; // num3 = num3 + 40 -->  num3 = 140
+		
+		num3 += 100; // num3 = num3 + 100 --> num3 = 240
+		
+		// -= This operator turns left side into left side minus right side
+		
+		num3 -= 30; // num3 = num3 - 30 --> 210
+		
+		// /= This operator turns left side into left side divided by right side
+		
+		num3 /= 3; // num3 = num3 / 3 --> 70
+		
+		// *= This operator turns left side into left side multiplied by right side
+		
+		num3 *= 2; // num3 = num3 * 2 --> 140
+		
+		// %= 
+		
+		num3 %= 8; // num3 = num3 % 8 --> 4
+		
+		
+		
+		
+		
 
 	}
 

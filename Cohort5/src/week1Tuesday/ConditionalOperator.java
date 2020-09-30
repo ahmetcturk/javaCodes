@@ -6,7 +6,7 @@ public class ConditionalOperator {
 		
 		int num1, num2;
 		num1 = 10;
-		
+		//condition : true - false
 		num2 = (num1 > 9) ? 100 : 9 ;
 		System.out.println(num2);
 		
