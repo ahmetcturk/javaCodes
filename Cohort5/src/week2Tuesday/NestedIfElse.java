@@ -4,7 +4,7 @@ public class NestedIfElse {
 
 	public static void main(String[] args) {
 		
-		boolean myBoolean = false;
+		boolean myBoolean = true;
 		
 		if (myBoolean) {
 			System.out.println("1");
@@ -24,6 +24,7 @@ public class NestedIfElse {
 			}
 			
 		}
+		
 		
 		
 		
