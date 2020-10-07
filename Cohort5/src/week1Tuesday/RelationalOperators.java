@@ -19,14 +19,14 @@ public class RelationalOperators {
 		// == checks if the left side is equals or not with right side
 		System.out.println("Forth Expression : " + (42==98));
 		
-		System.out.println("Ahmet" == "Ahmet");
+		System.out.println("Ahmt" == "Ahmet");
 		
 		// != this returns true if left side is not equals to right side
 		System.out.println("Sixth Expression : "  + (99 != 99));
 
 		// ! converts boolean value to opposite
 		
-		System.out.println("Seventh Expression :  " + !(4>5));
+		System.out.println("Seventh Expression :  " + !(9>5));
 		
 	}
 

@@ -14,7 +14,7 @@ public class Casting {
 		
 		int number = 35;
 		// 					widening casting
-		System.out.println((double)number);
+		System.out.println((double)number + .5);
 		
 		// widening casting (automatically)
 		

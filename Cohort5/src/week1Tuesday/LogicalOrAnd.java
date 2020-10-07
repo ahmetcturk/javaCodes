@@ -10,8 +10,8 @@ public class LogicalOrAnd {
 		// || = Or operator : If one of the sides is true, whole expression is true
 		// If all the sides are false, whole expression will be false, 
 		
-		System.out.println(true && false);
-		System.out.println(true && true && true && false);
+		System.out.println(false && false);
+		System.out.println(true && true && true && true);
 		System.out.println(true && 9>8 && 9!=0); // true
 		System.out.println(true && 9>8 && 9==0); // false
 		

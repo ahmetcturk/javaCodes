@@ -11,7 +11,7 @@ public class AssignmentOperators {
 		
 		// = Assigning right to the left side
 		num1 = num2; // num1 = 43
-		num2 = num1; // 
+		
 		System.out.println(num2);
 
 		System.out.println(num1);
