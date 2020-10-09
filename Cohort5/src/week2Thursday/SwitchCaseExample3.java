@@ -10,7 +10,7 @@ public class SwitchCaseExample3 {
 		double number1 = 9;
 		double number2 = 10;
 
-		char operator = '/';
+		char operator = '-';
 
 		switch (operator) {
 		case '+':
