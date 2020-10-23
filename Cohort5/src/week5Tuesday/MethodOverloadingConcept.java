@@ -5,8 +5,8 @@ public class MethodOverloadingConcept {
 	public static void main(String[] args) {
 		
 		new MethodOverloadingConcept().print(9); //
-//		new MethodOverloadingConcept().print("Nine");
-//		new MethodOverloadingConcept().print(9,7);
+		new MethodOverloadingConcept().print("Nine");
+		new MethodOverloadingConcept().print(9,7);
 
 	}
 	
