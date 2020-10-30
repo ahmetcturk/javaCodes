@@ -18,9 +18,9 @@ public class CellPhone {
 		phone1.report();
 		
 		CellPhone phone2 = new CellPhone();
-		phone1.brand = "Huawei Mate SE";
-		phone1.OS = "Android Kitkat";
-		phone1.RAM = 8;
+		phone2.brand = "Huawei Mate SE";
+		phone2.OS = "Android Kitkat";
+		phone2.RAM = 8;
 		
 		phone2.report();
 		
