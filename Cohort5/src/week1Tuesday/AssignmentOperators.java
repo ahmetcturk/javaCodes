@@ -1,6 +1,8 @@
 package week1Tuesday;
-
+import java.util.Scanner;
+@MYCLASS
 public class AssignmentOperators {
+	
 
 	public static void main(String[] args) {
 		
