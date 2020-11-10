@@ -3,7 +3,7 @@ package week7Thursday;
 // Composition in java
 class Example2{
 	int b;
-	Example3 object;
+	Example3 example3Object;
 }
 
 class Example3{
@@ -17,10 +17,10 @@ public class CompositionInJava {
 		example3.a = 9;
 		
 		Example2 example2 = new Example2();
-		example2.object = example3;
+		example2.example3Object = example3;
 		example2.b= 90;
 		
-		int number = example2.object.a;
+		int number = example2.example3Object.a;
 
 	}
 
