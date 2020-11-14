@@ -12,6 +12,9 @@ class Book{
 		this.title = title;
 	}
 	
+	void download(){
+		System.out.println("Book is downloaded");
+	}
 	
 }
 
@@ -45,6 +48,21 @@ class AudioBook extends  Book {
 public class InheritanceConcept3 {
 
 	public static void main(String[] args) {
+		// SuperClass reference = new SubClass
+		// SubClass reference = new SuperClass() --> It is not possible
+		Book book1 = new AudioBook();
+		Book book2 = new EBook();
+		Book book3 = new PaperBackBook();
+		book2.download();
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		AudioBook audioBook = new AudioBook();
 		audioBook.play();
 		
