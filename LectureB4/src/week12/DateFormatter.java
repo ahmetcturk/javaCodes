@@ -6,6 +6,18 @@ import java.time.format.DateTimeFormatter;
 public class DateFormatter {
 
 	public static void main(String[] args) {
+		/*
+		LocalDate:
+		    year: yyyy
+		    month: MM (number), MMM(three letters of month), MMMM(full name)
+		    days: dd
+		    name of day: E(three letters) , EEEE (full name)
+		LocalTime:
+		    hours: hh
+		    minutes: mm
+		    seconds: ss
+		    am/pm: a
+		 */
 		
 		// Date formatter example 
 		LocalDate date = LocalDate.of(2020, 12, 8);
