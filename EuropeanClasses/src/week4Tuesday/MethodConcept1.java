@@ -24,7 +24,7 @@ public class MethodConcept1 {
 		
 	}
 	
-	static int findAge(int birthYear){
+	public static int findAge(int birthYear){
 		int age = 2020 - birthYear;
 		return age;
 	}
