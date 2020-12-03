@@ -11,7 +11,7 @@ abstract class SuperClass{
 	abstract void add();
 	abstract void display();
 	
-	void concreteMethod(){
+	 void concreteMethod(){
 		System.out.println("Concrete method");
 	}
 	
