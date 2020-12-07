@@ -9,7 +9,7 @@ public class WrapperClassesConcept {
 		// Wrapper classes are object version of primitive data types
 		
 		// Integer, Double, Byte, Short, Float, Long...
-	// Wrapper classes are provides mechanism to convert primitive data type to object
+	   // Wrapper classes are provides mechanism to convert primitive data type to object
 		
 		Integer num = new Integer(99);
 		Integer num1 = new Integer(98);

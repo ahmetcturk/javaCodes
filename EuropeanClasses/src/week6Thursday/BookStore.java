@@ -3,6 +3,8 @@ package week6Thursday;
 
 public class BookStore {
 	// Finish the example in class work, And complete other buy and return methods
+	// Create return methods, customers can return the amount they bought, they can not return more than they bought
+	// Assign a price to all books and calculate the total amount that customer needs to pay after shopping
 	 static int customerNumber;
 	 static int crimeInventory = 100, comicsInventory = 90, biographyInventory = 40;
 	
@@ -23,7 +25,7 @@ public class BookStore {
 		customer2.buyCrimeBooks(20);
 		customer.returnCrimeBook(10);
 		
-		System.out.println("Customer number : "+customer.customerNumber);
+		System.out.println("Customer number : "+BookStore.customerNumber);
 		
 		System.out.println(BookStore.crimeInventory);
 		
