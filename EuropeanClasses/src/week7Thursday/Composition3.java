@@ -31,9 +31,13 @@ class ClassRoom{
 public class Composition3 {
 
 	public static void main(String[] args) {
+		Student student = new Student("Fatih", 4300);
+		Teacher teacher = new Teacher("Cemil", 3000);
 		ClassRoom obj = new ClassRoom(new Student("Talha", 4290), new Teacher("Ahmet", 4298));
 		System.out.println(obj.teacher.name);
 		System.out.println(obj.student.name);
+		
+		ClassRoom ob2 = new ClassRoom(student, teacher);
 	}
 
 }

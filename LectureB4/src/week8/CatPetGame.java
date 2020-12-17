@@ -19,6 +19,7 @@ public class CatPetGame {
 		System.out.println("Hunger : " + hunger);
 		System.out.println("Sleep : " + sleep);
 	}
+	 
 	void feed(){
 		hunger--;
 		sleep++;
